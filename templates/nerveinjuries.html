@@ -196,12 +196,33 @@ display:inherit;
             </li>
          
     </nav>
-
- 
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+       PRINCIPLES OF ORTHOPAEDICS
+    </a></style>
+    <ul >
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/compound">COMPOUND FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/closefracture">NON-UNION OF FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/compartment">COMPARTMENT SYNDROME</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/crush">CRUSH SYNDROME</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fat">FAT EMBOLISM</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/myositis">MYOSITIS OSSIFICANS</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/pathological/">PATHOLOGICAL FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/stress">STRESS FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/nerveinjuries">CLASSIFICATION OF NERVE INJURIES</a></li>
+    </ul>
       
   
         
- 
+  
+         
+
+
+
+
 
 </div>
 
@@ -210,4 +231,69 @@ display:inherit;
 </html>
   
 
-{% endblock %}
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+   <h2>Classification of nerve injuries</h2>
+
+  
+       <div="img">
+        
+        
+   <center><img src="https://www.otorrinoweb.com/images/stories/glosario_n/Neuropraxia.png" width="300" height="300"></center>
+</div>
+
+   <h3>Neurapraxia:</h3>
+
+     <p>A reversible physiological nerve conduction block with loss of 
+    some types of sensation and muscle power followed by 
+    spontaneous recovery within a few days or weeks. </p>
+        
+    <h3>Axonotmesis:</h3>
+   
+        <p>Axonal interruption with loss of conduction but the nerve is in 
+    continuity and the neural tubes are intact. 
+    Distal to the lesion, axons disintegrate and are resorbed by 
+    phagocytes. This phenomenon is called Wallerian degeneration. 
+    Recovery takes months to occur. </p>
+    
+    <h3>Neurotmesis:</h3>
+    <p>When the injury is more severe, whether the nerve is in 
+    continuity or not, recovery will not occur. 
+    As in axonotmesis, there is rapid Wallerian degeneration, but 
+    here the endoneurial tubes are destroyed over a variable 
+    segment and scarring takes place, which interferes with 
+    regenerating axons regaining entry into the distal segment. 
+    Instead, regenerating fibers mingle with proliferating Schwann 
+    cells and fibroblasts in a jumbled knot or ͚neuroma’ at the site 
+    of injury.
+     </p>
+    
+        {% endblock %}
